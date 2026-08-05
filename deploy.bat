@@ -10,6 +10,7 @@ python rename_brand.py
 python add_agency.py
 python add_official_links.py
 python add_gmb_link.py
+python add_favicon.py
 
 echo ==========================================
 echo Deploying Balaji Kabadi Website to GitHub
