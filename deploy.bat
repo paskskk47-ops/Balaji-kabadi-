@@ -4,6 +4,7 @@ echo Running Local SEO, Rates, and CTA Updates...
 echo ==========================================
 python update_ctas.py
 python update_host.py
+python add_robots_meta.py
 
 echo ==========================================
 echo Deploying Balaji Kabadi Website to GitHub

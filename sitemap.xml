@@ -103,4 +103,8 @@
     <loc>https://paskskk47-ops.github.io/Balaji-kabadi-/guides/scrap-price-guide-jaipur.html</loc>
     <priority>0.85</priority>
   </url>
+  <url>
+    <loc>https://paskskk47-ops.github.io/Balaji-kabadi-/sitemap.html</loc>
+    <priority>0.90</priority>
+  </url>
 </urlset>
