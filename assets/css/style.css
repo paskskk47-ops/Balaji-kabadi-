@@ -688,3 +688,144 @@ footer {
     gap: 2rem;
   }
 }
+
+/* ====================================================
+   Targeted CTAs, WhatsApp Floating Button, & Rates Table
+   ==================================================== */
+
+/* Floating WhatsApp CTA */
+.whatsapp-float {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  background-color: #25d366;
+  color: #fff !important;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 32px;
+  box-shadow: 0 4px 15px rgba(37, 211, 102, 0.4);
+  z-index: 9999;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  text-decoration: none;
+}
+.whatsapp-float:hover {
+  transform: scale(1.1) rotate(10deg);
+  background-color: #128c7e;
+  box-shadow: 0 6px 20px rgba(18, 140, 126, 0.5);
+}
+
+/* Sidebar Rates Table Widget */
+.rates-widget {
+  background-color: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-md);
+  padding: 1.5rem;
+  box-shadow: var(--shadow-sm);
+  margin-bottom: 2rem;
+}
+.rates-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 0.75rem;
+  font-size: 0.92rem;
+}
+.rates-table th, .rates-table td {
+  padding: 10px 8px;
+  text-align: left;
+  border-bottom: 1px solid var(--border);
+}
+.rates-table th {
+  font-weight: 700;
+  color: var(--text-dark);
+  background-color: var(--bg-accent);
+}
+.rates-table tr:hover {
+  background-color: #f0fdf4;
+}
+.rates-highlight {
+  font-weight: 700;
+  color: var(--primary);
+  white-space: nowrap;
+}
+
+/* Inline WhatsApp CTA Box */
+.inline-whatsapp-box {
+  background: linear-gradient(135deg, #f0fdf4 0%, #dcfce7 100%);
+  border: 1px solid rgba(22, 163, 74, 0.2);
+  border-radius: var(--radius-md);
+  padding: 1.5rem;
+  margin: 2rem 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+}
+.inline-whatsapp-text h4 {
+  font-size: 1.25rem;
+  color: #15803d;
+  margin-bottom: 0.25rem;
+}
+.inline-whatsapp-text p {
+  margin: 0;
+  font-size: 0.95rem;
+  color: #166534;
+}
+.btn-whatsapp {
+  background-color: #25d366;
+  color: #fff !important;
+  font-weight: 700;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  border-radius: var(--radius-sm);
+  padding: 0.75rem 1.5rem;
+  box-shadow: 0 4px 10px rgba(37, 211, 102, 0.3);
+  text-decoration: none;
+  font-size: 0.95rem;
+  transition: var(--transition);
+}
+.btn-whatsapp:hover {
+  background-color: #128c7e;
+  transform: translateY(-2px);
+}
+
+/* Header Contact Info Badge */
+.header-contact {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-weight: 700;
+  font-size: 0.95rem;
+  color: var(--text-dark);
+}
+.header-contact a {
+  color: var(--primary);
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+}
+.header-contact a:hover {
+  color: var(--primary-hover);
+  text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+  .whatsapp-float {
+    bottom: 20px;
+    right: 20px;
+    width: 50px;
+    height: 50px;
+    font-size: 26px;
+  }
+  .inline-whatsapp-box {
+    flex-direction: column;
+    text-align: center;
+    gap: 1rem;
+  }
+}
+

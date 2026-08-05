@@ -1,5 +1,10 @@
 @echo off
 echo ==========================================
+echo Running Local SEO, Rates, and CTA Updates...
+echo ==========================================
+python update_ctas.py
+
+echo ==========================================
 echo Deploying Balaji Kabadi Website to GitHub
 echo ==========================================
 
@@ -21,7 +26,7 @@ git add -A
 
 :: Commit files
 echo Committing changes...
-git commit -m "Deploy Balaji Kabadi website to GitHub Pages"
+git commit -m "Deploy Balaji Kabadi website with updated CTA and Rates tables"
 
 :: Push to GitHub
 echo Pushing to main branch...
