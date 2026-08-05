@@ -7,6 +7,7 @@ python update_host.py
 python add_robots_meta.py
 python remove_html_ext.py
 python rename_brand.py
+python add_agency.py
 
 echo ==========================================
 echo Deploying Balaji Kabadi Website to GitHub
