@@ -5,6 +5,7 @@ echo ==========================================
 python update_ctas.py
 python update_host.py
 python add_robots_meta.py
+python remove_html_ext.py
 
 echo ==========================================
 echo Deploying Balaji Kabadi Website to GitHub
