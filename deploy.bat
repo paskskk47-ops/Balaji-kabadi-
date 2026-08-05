@@ -1,0 +1,35 @@
+@echo off
+echo ==========================================
+echo Deploying Balaji Kabadi Website to GitHub
+echo ==========================================
+
+:: Initialize git repository if not already done
+if not exist .git (
+    echo Initializing Git repository...
+    git init
+    git checkout -b main
+)
+
+:: Configure remote URL
+echo Setting remote origin to https://github.com/paskskk47-ops/Balaji-kabadi-.git ...
+git remote remove origin >nul 2>&1
+git remote add origin https://github.com/paskskk47-ops/Balaji-kabadi-.git
+
+:: Stage files
+echo Staging all files...
+git add -A
+
+:: Commit files
+echo Committing changes...
+git commit -m "Deploy Balaji Kabadi website to GitHub Pages"
+
+:: Push to GitHub
+echo Pushing to main branch...
+git push -u origin main
+
+echo ==========================================
+echo Deployment steps completed.
+echo Please enable GitHub Pages in repository settings:
+echo Settings -> Pages -> Build and deployment -> Branch: main (root) -> Save
+echo ==========================================
+pause

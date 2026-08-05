@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <!-- Root Pages -->
+  <url>
+    <loc>https://balajikabadiwalajaipur.github.io/</loc>
+    <priority>1.00</priority>
+  </url>
+  <url>
+    <loc>https://balajikabadiwalajaipur.github.io/index.html</loc>
+    <priority>1.00</priority>
+  </url>
+  <url>
+    <loc>https://balajikabadiwalajaipur.github.io/about.html</loc>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://balajikabadiwalajaipur.github.io/contact.html</loc>
+    <priority>0.80</priority>
+  </url>
+
+  <!-- Services Hub & Spokes -->
+  <url>
+    <loc>https://balajikabadiwalajaipur.github.io/services/scrap-buying-jaipur.html</loc>
+    <priority>0.90</priority>
+  </url>
+  <url>
+    <loc>https://balajikabadiwalajaipur.github.io/services/house-scrap-pickup-jaipur.html</loc>
+    <priority>0.70</priority>
+  </url>
+  <url>
+    <loc>https://balajikabadiwalajaipur.github.io/services/office-scrap-buyers-jaipur.html</loc>
+    <priority>0.70</priority>
+  </url>
+  <url>
+    <loc>https://balajikabadiwalajaipur.github.io/services/bulk-scrap-buyers-jaipur.html</loc>
+    <priority>0.70</priority>
+  </url>
+  <url>
+    <loc>https://balajikabadiwalajaipur.github.io/services/iron-scrap-buyers-jaipur.html</loc>
+    <priority>0.70</priority>
+  </url>
+  <url>
+    <loc>https://balajikabadiwalajaipur.github.io/services/plastic-scrap-buyers-jaipur.html</loc>
+    <priority>0.70</priority>
+  </url>
+  <url>
+    <loc>https://balajikabadiwalajaipur.github.io/services/wood-scrap-buyers-jaipur.html</loc>
+    <priority>0.70</priority>
+  </url>
+  <url>
+    <loc>https://balajikabadiwalajaipur.github.io/services/ac-scrap-buyers-jaipur.html</loc>
+    <priority>0.70</priority>
+  </url>
+  <url>
+    <loc>https://balajikabadiwalajaipur.github.io/services/electronic-scrap-buyers-jaipur.html</loc>
+    <priority>0.70</priority>
+  </url>
+  <url>
+    <loc>https://balajikabadiwalajaipur.github.io/services/old-furniture-scrap-jaipur.html</loc>
+    <priority>0.70</priority>
+  </url>
+
+  <!-- Locations Hub & Spokes -->
+  <url>
+    <loc>https://balajikabadiwalajaipur.github.io/locations/jaipur.html</loc>
+    <priority>0.90</priority>
+  </url>
+  <url>
+    <loc>https://balajikabadiwalajaipur.github.io/locations/vaishali-nagar.html</loc>
+    <priority>0.95</priority>
+  </url>
+  <url>
+    <loc>https://balajikabadiwalajaipur.github.io/locations/mansarovar.html</loc>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://balajikabadiwalajaipur.github.io/locations/sodala.html</loc>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://balajikabadiwalajaipur.github.io/locations/shyam-nagar.html</loc>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://balajikabadiwalajaipur.github.io/locations/nirman-nagar.html</loc>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://balajikabadiwalajaipur.github.io/locations/ajmer-road.html</loc>
+    <priority>0.80</priority>
+  </url>
+
+  <!-- Guides Spokes -->
+  <url>
+    <loc>https://balajikabadiwalajaipur.github.io/guides/how-to-sell-scrap-jaipur.html</loc>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://balajikabadiwalajaipur.github.io/guides/scrap-recycling-jaipur.html</loc>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://balajikabadiwalajaipur.github.io/guides/scrap-price-guide-jaipur.html</loc>
+    <priority>0.85</priority>
+  </url>
+</urlset>
