@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://balajikabadiwalajaipur.github.io/sitemap.xml
+Sitemap: https://paskskk47-ops.github.io/Balaji-kabadi-/sitemap.xml
